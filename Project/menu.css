@@ -1,0 +1,193 @@
+#carouselExampleCaptions h1{
+    margin-top: -30% !important;
+}
+#carouselExampleCaptions .btn{
+    color: black;
+    background-color: orange !important;
+}
+#carouselExampleCaptions .btn:hover{
+    color: black;
+    background-color: orangered  !important;
+}
+.card-body{
+   background: url(Home\ screen.jfif);
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white !important;
+}
+.card-body .btn{
+    background-color: orange;
+    border: 2px solid black;
+    float: right;
+}
+.card-body .btn:hover{
+    background-color: orangered;
+    
+}
+.card{
+    transition: .3s;
+}
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 10px orange;
+
+}
+
+#veg .card i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    font-size: 20px;
+}
+#nonveg .card i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    font-size: 20px;
+}
+#drinks .card i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: white;
+    font-size: 20px;
+}
+#veg .card i:hover{
+    color: red;
+    cursor: pointer;
+}
+#nonveg .card i:hover{
+    color: red;
+    cursor: pointer;
+}
+#drinks .card i:hover{
+    color: red;
+    cursor: pointer;
+}
+#footer{
+    background:url(footer1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+footer{
+    background-color: orange;
+    width: 100%;
+    /* height: 400px; */
+}
+#footer{
+    padding: 40px;
+}
+footer ul li{
+    margin-left: -20px;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(96, 80, 80);
+}
+footer ul li:hover{
+    color: orangered;
+}
+footer .icon i{
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 5px;
+    transition: .3s
+}
+footer .icon i:hover{
+    font-size: 22px;
+    background-color: rgb(255, 202, 103);
+    border: 2px solid black;
+}
+footer input{
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 90%;
+    padding: 5px;
+}
+
+
+
+#order h1{
+    color: orange;
+    font-size: 60px;
+}
+#order input{
+    background-color: orange;
+    outline: none;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    padding: 5px ;
+}
+#order button{
+    background-color: orange;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px
+}
+#order img{
+    animation: delivery 2s;
+    animation-timing-function: 1;
+}
+@keyframes delivery{
+    0%{transform: translateX(800px);}
+}
+
+footer h2{
+    text-shadow: 0 0 10px white;
+}
+footer h1{
+    text-shadow: 0 0 20px white;
+}   
+
+@media screen and (max-width:736px){
+    #carouselExampleCaptions h1{
+        font-size: 20px;
+    }
+  
+}
+@media screen and (max-width:637px){
+    #carouselExampleCaptions h1 {
+        position: absolute;
+        top: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    #carouselExampleCaptions h1 {
+        position: relative;
+        top: 50px;
+        font-size: 20px;
+    }
+    #carouselExampleCaptions .btn{
+        position: relative;
+        top: 44px;
+    }
+}
+@media screen and (max-width:400px){
+    #carouselExampleCaptions h1 {
+        position: relative;
+        top: 25px;
+        font-size: 20px;
+        
+    }
+    #carouselExampleCaptions .btn{
+      display: none;
+    }
+}

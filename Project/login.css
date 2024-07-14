@@ -1,0 +1,115 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+#login{
+    background: url(login.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 90%  ;
+    border-radius: 10px;
+  
+}
+.container{
+    height: 600px ;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translate(-55%,-55%);
+    filter: drop-shadow(0 0 5px white);
+   
+}
+.name i{
+    position: absolute;
+    margin: 10px 0 0 5px;
+    color: green;
+}
+input{
+    padding: 5px 0px 5px 25px;
+    outline: none;
+    border: 2px solid green;
+    border-radius: 0 5px 0 5px;  
+    width: 70%;
+}
+input:hover{
+    box-shadow: 0 0 5px greenyellow;
+}
+button{
+    outline: none;
+    border: 2px solid green;
+    border-radius: 0 5px 0 5px !important;
+    width: 55%;
+    background:linear-gradient(to left,green,greenyellow);
+    transition: .3s;
+}
+button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 5px green;
+}
+
+p{
+    color: gray;   
+}
+p:hover{
+    color: black;
+}
+.info > :nth-child(5){
+    font-size: 13px;
+    margin-left: 70px !important;
+    cursor: pointer;
+}
+.info > :nth-child(6){
+    cursor: pointer;
+    margin-top: 100px ;
+}
+
+@media screen and (max-width:1140px) {
+    .info > :nth-child(5){
+        margin-left: 10px !important;
+        font-size: 15px;
+    } 
+    .info > :nth-child(6){
+        margin-top: 200px;
+    }
+    
+}
+@media screen and (max-width:770px){
+    .info > :nth-child(5){
+       font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width:576px){
+    .info{
+        margin: 70px 0px 0px 10px;
+    }
+    .info .name{
+        margin: 30px 0px 30px 0;
+    }
+    .info .name input{
+        width: 90%;
+    }
+    .info > :nth-child(1){
+        margin-left: 25%;
+        margin-bottom: 50px;
+    }
+    .info > :nth-child(4){
+        margin-top: 40px;
+        margin-left: 19%;
+    }
+    .info > :nth-child(5){
+        color: rgb(231, 148, 148);
+        margin-left: 23% !important;
+    }
+    .info > :nth-child(6){
+        color: rgb(231, 148, 148);
+        margin-top: 40%;
+        margin-left: 20%;
+    }
+}

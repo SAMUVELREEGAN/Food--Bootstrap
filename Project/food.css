@@ -1,0 +1,492 @@
+
+#navbar img{
+    width: 100px;
+}
+#navbarSupportedContent ul li a{
+    font-size: 18px;
+    width: fit-content;
+}
+#navbarSupportedContent ul li a i{
+    font-size: 17px;
+}
+#navbarSupportedContent ul li a:hover{
+    color: black !important;
+    background-color: orange;
+    border-radius: 10px;
+ 
+
+}
+#login{
+    background-color: orange;
+    border-radius: 10px;  
+    width: fit-content;
+    float: left; 
+}
+#login li a:hover{
+    background-color: rgb(255, 195, 84) !important;
+}
+
+
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+#home h1{
+    font-size: 100px;
+    color: orange;
+}
+#home h2{
+    font-size: 50px;
+}
+#home .btn1{
+    background-color: orange;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid black;
+}
+#home .btn1:hover{
+    background-color: white;
+}
+#home .btn2{
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid black;
+}
+#home .btn2:hover{
+    background-color: orange;
+}
+
+
+
+
+#about h1{
+    font-size: 100px;
+    color: orange;
+}
+#about .btn{
+    background-color: orange;
+}
+#about .btn:hover{
+    background-color: orangered;
+}
+
+
+
+
+
+#brand #brand-card{
+ background:url(Home\ screen.jfif);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+#brand #brand-card:hover{
+    box-shadow: 0 0 5px orange;
+    cursor: pointer;
+}
+#brand #brand-card:hover img{
+    filter:drop-shadow(2px 3px 5px black) ;
+}
+#brand #brand-card img{
+    filter:drop-shadow(2px 3px 5px orange) ;
+}
+#brand h1{
+    font-size: 100px;
+    color: orange;
+}
+
+
+
+
+
+
+
+#brand1-card{
+    box-shadow: 0 0 10px orange;
+    transition: .3s;
+}
+#brand1-card:hover{
+    box-shadow: 0 0 10px black;
+    transform: translateY(-5px)
+}
+#brand1-card .card-title{
+    color: orange;
+}
+#brand1-card button{
+    background-color: orange;
+    border-radius: 5px;
+}
+#brand1-card  button:hover{
+    background-color: orangered;
+}
+#brand1-card p{
+    color: white;
+}
+#brand1 h1{
+    font-size: 50px;
+    color: orange;
+}
+
+
+
+#trending .card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 5px orange;
+}
+#trending .card-body{
+    background: url(various-vegetables-black-table-with-space-message.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+#trending .card-body h5{
+    color: orange;
+}
+#trending h1{
+    color: orange;
+    font-size: 50px;
+}
+#trending .btn{
+    background-color: orange; 
+    border: 2px solid black;  
+}
+#trending .btn:hover{
+    background-color: orangered;
+}
+
+
+#btn a i{
+    background-color: orangered;
+    padding: 14px;
+    border-radius: 50%;
+    color: black;  
+
+}
+#btn a i:hover{
+    background-color: wheat;
+}
+#btn{
+    position: sticky;
+    top: 90%;
+}
+
+
+
+
+
+
+#trend1 .container{
+    background: url(flat-lay-orange-juice-orange-background-with-copy-space.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+#trend1 .card{
+    cursor: pointer;
+    transition: .3s;
+}
+#trend1 .card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 8px black;
+}
+#trend1 .btn{
+    color: black;
+    background-color: orangered;
+    border-color: black;
+}
+#trend1 .btn:hover{
+    background-color: black;
+    color: orange;
+}
+#trend1 .card-body{
+    background: url(trend1/download.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 5px 5px;
+    color: white;
+}
+
+
+
+    /* #menu{
+        background:url(bg4.png);
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        
+    } */
+#menu h1{
+    font-size: 50px;
+    color: orange;
+}
+#menu .card-body{
+    background: url(selection-various-pumpkins-dark-wooden-background-with-copy-space-autumn-vegetables-seasonal-decorations.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#menu .card{
+    cursor: pointer;
+    transition: .3s;
+}
+#menu .card i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    font-size: 20px;
+}
+#menu .card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 8px orange;
+}
+#menu .btn{
+    color: black;
+    background-color: orange;
+    border-color: black;
+    float: right;
+}
+#menu .btn:hover{
+    background-color: orangered;
+    color: white;
+}
+#menu .card-title{
+    color: orange;
+}
+#menu .fun{
+    border: 4px solid orangered;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    padding: 3px;
+    height: 42px;
+    position: absolute;
+    bottom: 10px;
+    background-color: white;
+
+}
+#menu .fun button{
+    color: white;
+    background-color: orangered;
+    height: 30px;
+}
+#menu .fun p{
+    padding-left: 7px;
+    color: black;
+    font-size: 20px;
+    font-weight: 800;  
+}
+#menu .more{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#menu .more a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+
+
+#chanel{
+    background:linear-gradient(to left,orange,rgb(255, 170, 85));
+    height: fit-content;
+}
+#chanel i{
+    font-size: 70px;
+    color: black;
+    cursor: pointer;
+}
+#chanel .ch-info{
+    color: white;
+}
+
+
+
+
+#customer{
+    background:url(bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+#customer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+#customer  i{
+    color: rgb(255, 255, 16);
+} 
+#customer h1{
+    color: orange;
+    font-size: 50px;
+}
+#customer .card{
+    transition: .3s;
+}
+#customer .card:hover{
+    background-color: rgb(137, 122, 94);
+    color: white;
+    transform: translateY(-4px);
+    box-shadow: 0 0 5px white;
+    cursor: pointer;
+}
+
+
+#app .container{
+    background:linear-gradient(to left,orange,orangered);
+    border-radius: 10px;
+}
+#app button{
+    border-radius: 7px;
+    transition: .3s;
+}
+#app button:hover{
+    transform: translateY(-3px);
+}
+#app .container img{
+    transition: .3s;
+}
+#app .container:hover img{
+    transform: scale(1.1)
+}
+
+
+
+#order input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+#order .order1{
+    background-color: orange;
+    color: black;
+    font-weight: 500;
+}
+#order .order{
+    color: orange;
+    font-size: 60px;
+}
+#order label{
+    font-size: 25px;
+}
+#order button{
+    background:none;
+    transition: .3s;
+}
+#order button:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 0 8px black;
+}
+#order .btn1 a{
+    text-decoration: none;
+    color: black;
+}
+#order .btn1{
+    border-color: black;
+}
+#order{
+    background:url(bg6.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+footer{
+    background-color: orange;
+    width: 100%;
+    /* height: 400px; */
+}
+#footer{
+    padding: 40px;
+}
+footer ul li{
+    margin-left: -20px;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(96, 80, 80);
+}
+footer ul li:hover{
+    color: orangered;
+}
+footer .icon i{
+    background-color: red;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 5px;
+    transition: .3s
+}
+footer .icon i:hover{
+    font-size: 22px;
+    background-color: rgb(255, 202, 103);
+    border: 2px solid black;
+}
+footer input{
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 90%;
+    padding: 5px;
+}
+#footer{
+    background:url(footer1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+footer h2{
+    text-shadow: 0 0 10px white;
+}
+footer h1{
+    text-shadow: 0 0 20px white;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:996px) {
+    #about{
+        margin-top: 150px;
+    }
+    #brand{
+        margin-top: 150px;
+    }
+    #home h1{
+        font-size: 50px;
+        color: orange;
+    }
+   
+    
+}
+
+
+
